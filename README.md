@@ -2,4 +2,4 @@
 
 Requisites : 
 1. Processing 3 
-2. Java 8 and above 
+2. Java 8 or above 
