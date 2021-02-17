@@ -13,7 +13,7 @@ class Bird {
 
     // Loading the images into the array
     // Don't forget to put the JPG files in the data folder!
-    for (int i = 0; i < Birds.length; i ++ ) {
+    for (int i = 0; i < Birds.length; i ++ ) {           //Images are loaded into an array
       Birds[i] = loadImage( "Bird" + i + ".png" );
     }
     temp = Birds[1]; 
@@ -22,7 +22,7 @@ class Bird {
   void draw() {
     if(keyPressed){  
          if(key == 'f'){
-           if(imageIndex% 2  == 1){
+           if(imageIndex% 2  == 1){                  //The images in array are animated as the frames change quickly 
              image(Birds[1], 700, 200);
              temp = Birds[1]; 
            }
